@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+	<head> 
+		<title>My String comparison tool </title> 
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./my.css">
+		<!--set favicon -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<script src="./my.js"> </script>
+	</head>
+<!-- Start of body area -->
+	<body> 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="logo">
+						<img src="./scale.png" alt="Comparison" class="img-responsive img-rounded" width="40" height="40"> 
+					</div>
+				</div>
+				<div class="col-md-7" id="logo-box">
+					<h3> Welcome to string comparison tool</h3>
+				</div>
+			</div> <!-- end of row-->
+			<main>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+						  <label for="comment">Input 1:</label>
+						  <textarea data-toggle="tooltip" title="First input your text in area 1!" class="form-control" rows="4" cols="50" id="area1" onclick="prepareArea1()" onfocus="prepareArea1()">First input your text in area 1 ==========================================> </textarea>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+						  <label for="comment">Input 2:</label>
+						  <textarea data-toggle="tooltip" title="then input your text in area 2 and press &quot;Click Me!&quot; button to display results!" class="form-control" rows="4" cols="50" id="area2" onclick="prepareArea2()" onfocus="prepareArea2()">then input your text in area 2 and press "Click Me!" button to display results.</textarea>
+						</div>
+					</div>
+				</div> <!-- end of row-->
+				<div class="row">
+					<div class="col-md-12">
+						<button type="button" class="btn btn-default" onclick="compareInputStrings()">Click Me!</button>
+					</div>
+				</div> <!-- end of row-->
+				<div class="row" id="myfooter">
+					<div class="col-md-12">
+						<div class="panel panel-info" >
+							<div class="panel-heading">Useful information</div>
+							<div class="panel-body">
+								 <strong>Usage:</strong> Input your text in the two areas below and press button to display if they are equal or not.
+								 Technologies: ES6, Bootstrap, CSS3, HTML5
+							 </div>
+							 <div class="panel-footer"><strong>Contact:</strong> Contact me at <a href="mailto:myapos@gmail.com?Subject=String%20comparison%20tool" target="_top">myapos@gmail.com</a></div>
+						 </div>
+					</div>
+				</div> <!-- end of row-->
+			</main>
+		</div> <!-- end of container-->
+	</body>
+</html>

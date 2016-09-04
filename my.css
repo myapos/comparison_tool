@@ -1,0 +1,24 @@
+img {
+	margin-top:15px;
+    float:right;
+}
+h3 {
+    float:left;
+}
+head{
+	font:14px tempus sans itc;/**/
+}
+body{
+	background-color: #A9BFC7;
+	font:14px tempus sans itc;/**/
+}
+main {
+	margin-top:80px;
+}
+#myfooter{
+	margin-top:200px;
+}
+#logo-box{
+	text-align: center;
+	font:bold 20px tempus sans itc;
+}
