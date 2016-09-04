@@ -7,4 +7,4 @@ Screenshots
 ================
 ![ss.png](https://github.com/myapos/comparison_tool/blob/master/images/ss.png)
 
-Live url: http://myapos1.oncrete.gr/site/Applications/comparison_tool/
+Live url: http://myapos1.oncrete.gr/site/Applications/comparison_tool/index.html
