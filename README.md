@@ -5,4 +5,4 @@ With this simple tool you can check if two strings are equal. You can clone this
 
 Screenshots
 ================
-![screenshot1.png](https://github.com/myapos/Greek2Greenglish/blob/master/screenshots/screenshot1.png)
+![ss.png](https://github.com/myapos/comparison_tool/tree/master/images/ss.png)
