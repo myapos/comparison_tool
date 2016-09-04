@@ -6,3 +6,5 @@ With this simple tool you can check if two strings are equal. You can clone this
 Screenshots
 ================
 ![ss.png](https://github.com/myapos/comparison_tool/blob/master/images/ss.png)
+
+Live url: http://myapos1.oncrete.gr/site/Applications/comparison_tool/
